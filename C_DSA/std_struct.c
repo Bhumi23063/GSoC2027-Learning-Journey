@@ -8,7 +8,7 @@ struct student{
 
 void main()
 {
-    int i , n;
+    int i , n, temp;
     struct student s[100];
 
     printf("Enter the number of studnets : ");
@@ -24,7 +24,4 @@ void main()
     {
         printf("The details of the student %d are : \nName : %s \nRoll Number : %d \nMarks : %f\n", i+1, s[i].name, s[i].roll_no, s[i].marks);
     }
-
-    return 0;
 }
-
